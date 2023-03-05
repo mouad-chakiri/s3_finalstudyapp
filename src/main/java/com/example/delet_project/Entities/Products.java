@@ -26,9 +26,9 @@ public class Products {
     private String description;
     private String role;
 
-    @ManyToOne
-    @JoinColumn(name = "catalog_name", referencedColumnName = "catalog_name")
-    private Documontation docs;
+//    @ManyToOne
+//    @JoinColumn(name = "catalog_name", referencedColumnName = "catalog_name")
+//    private Documontation docs;
 
 //
 //    @ManyToMany
